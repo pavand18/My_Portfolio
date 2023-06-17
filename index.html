@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/img/Black White Simple Monochrome Initial Name Logo.png"
+    />
+
+<!-- for accessing fonts from google fonts at fast rate preconnect is usec -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+<!-- use this remix icon library to get nav icon (3 lines and </> icon ) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+<!-- BODY STARTED -->
+
+  <body>
+    <header id="header" class="header">
+      <div class="container">
+        
+        <nav class="nav">
+          <a href="index.html" class="nav__brand">
+            Pavan<i class="ri-code-s-slash-line"></i>
+          </a>
+          <div class="nav__menu" id="nav-menu">
+
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#hero" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#service" class="nav__link">Profiles</a>
+              </li>
+              <li class="nav__item">
+                <a href="#project" class="nav__link">Projects</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="nav__toggle">
+            <i id="nav-toggle" class="ri-menu-3-line"></i>
+          </div>
+        </nav>
+
+      </div>
+    </header>
+<!-- header completed... -->
+
+    <main class="main">
+
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="d-grid hero__wrapper">
+            <div class="hero__content">
+              <h1 class="hero__title">
+                Hi, I am <br />
+                Pavan Dakore & <br />I am a Student
+              </h1>
+            </div>
+
+            <img
+              src="assets/img/phomto2.png"
+              alt="Pavan"
+              class="hero__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About  -->
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">Who am I</span>
+          </div>
+          <div class="d-grid about__wrapper">
+            <div class="about__content">
+              <h3 class="about__title">I'm a Frontend Developer.</h3>
+              <p class="about__description">
+                I'm a Frontend Web Developer with experience in creating and maintaining responsive websites, and using modern libraries and frameworks to implement innovative web solutions. I have been working as a Web developer for over 1+ years and am still in the process of gaining more experience over more years.Till now I have worked on tech stacks such as HTML, CSS, JS, REACTJS, FIREBASE, MYSQL, BOOTSTRAP and much more.Also learning and expanding new tech skills and implementing them in my ongoing projects.
+              </p>
+              <a
+                href="https://www.linkedin.com/in/pavan-kumar-dakore-23a976230/"
+                class="btn btn--primary"
+                >Contact Me</a
+              >
+            </div>
+
+
+            <div class="skills">
+              <h3 class="skills__title">My Skills</h3>
+              <div class="skills__wrapper">
+                <div class="skills__content">
+                  <h4 class="skills__subtitle"></h4>
+                  <ul class="skills__list">
+                    <li class="skills__item">
+                      <i class="fa-brands fa-c"></i> C
+                    </li>
+
+                    <li class="skills__item">
+                      <i class="fa-brands fa-c"></i> C++
+                    </li>
+                    <li class="skills__item">
+                      <i class="fa-regular fa-square"></i>
+                      MySQL
+                    </li>
+                    <li class="skills__item">
+                      <i class="fa-brands fa-git"></i> Git
+                    </li>
+                    <li class="skills__item">
+                      <i class="fa-brands fa-github"></i> Github
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="skills__content">
+                  <h4 class="skills__subtitle"></h4>
+                  <ul class="skills__list">
+                    <li class="skills__item">
+                      <i class="fa-brands fa-html5"></i>
+                      HTML
+                    </li>
+                    <li class="skills__item">
+                      <i class="fa-brands fa-css3-alt"></i>
+                      CSS
+                    </li>
+                    <li class="skills__item">
+                      <i class="fa-brands fa-js"></i>
+                      JavaScript
+                    </li>
+                    <li class="skills__item">
+                      <i class="fa-brands fa-bootstrap"></i>
+                      Bootstrap
+                    </li>
+                    <li class="skills__item">
+                      <i class="fa-brands fa-react"></i> React
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- services  -->
+      <section id="service" class="section service">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Coding Profiles</h2>
+            <span class="section__subtitle">Where I Stand</span>
+          </div>
+          <div class="d-grid service__wrapper">
+            <!-- service card 1 -->
+
+            <div class="service__card">
+              <div class="service__icon">
+                <a href="https://leetcode.com/122001034/" target="_blank"
+                  ><img src="/assets/img/leetcode.png" alt=""
+                /></a>
+              </div>
+              <h3 class="service__title">
+                Leetcode <br />
+                <p>I have solve more than 300+ problems on leetcode</p>
+              </h3>
+              <a href="https://leetcode.com/122001034/" class="service__link"
+                >Know More</a
+              >
+            </div>
+
+            <div class="service__card">
+              <div class="service__icon">
+                <a
+                  href="https://codeforces.com/profile/pavand18"
+                  target="_blank"
+                  ><img src="/assets/img/codechef.png" alt=""
+                /></a>
+              </div>
+              <h3 class="service__title">
+                Codeforces<br />(rating 1200)<br /> Solved more than 300+ problems on codeforces <br />
+              </h3>
+              <a
+                href="https://codeforces.com/profile/pavand18"
+                class="service__link"
+                >Know More</a
+              >
+            </div>
+
+            <div class="service__card">
+              <div class="service__icon">
+                <a
+                  href="https://www.codingninjas.com/studio/profile/52c635cb-7155-420a-9d7f-40c23f9da029"
+                  target="_blank"
+                  ><img src="/assets/img/gfg.png" alt=""
+                /></a>
+              </div>
+              <h3 class="service__title">
+                Geeksforgeeks<br />I have solve more than 100+ problems on
+                Code Studio<br />
+              </h3>
+              <a
+                href="https://www.codingninjas.com/studio/profile/52c635cb-7155-420a-9d7f-40c23f9da029"
+                class="service__link"
+                >Know More</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Projects -->
+      <section id="project" class="section project">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">My recent work</span>
+          </div>
+
+          <div class="d-grid project__wrapper">
+            <!-- pr#1 -->
+            <div class="project__content">
+              <img
+                src="assets/img/budget_tracker.png"
+                alt="ecommerce Website"
+                class="project__img"
+              />
+              <h3 class="project__title">Budget Tracker</h3>
+              <p class="project__description">
+                Design and implemented a Budget Tracker web app which helps user to
+                analyse and get insights of thier expenses.Tech stack used React js,IndexedDB, Tailwind CSS.
+              </p>
+              <a
+                href="https://github.com/pavand18/Money_Manager"
+                class="project__link"
+                >Source Code <i class="ri-arrow-right-line"></i
+              ></a>
+              <a href="https://budget-trackr.netlify.app/" class="project__link"
+                >Demo <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+
+            <div class="project__content">
+              <img
+                src="assets/img/portfolio_1.png"
+                alt="ecommerce Website"
+                class="project__img"
+              />
+              <h3 class="project__title">Portfolio</h3>
+              <p class="project__description">
+                It is a website with crystal clean UI.It compiles all my work and details in a structured manner covering all projects, skills and Education history. The technologies used are HTML, CSS and JavaScript.
+              </p>
+              <a
+                href="https://github.com/pavand18/Money_Manager"
+                class="project__link"
+                >Source Code <i class="ri-arrow-right-line"></i
+              ></a>
+              <a href="https://budget-trackr.netlify.app/" class="project__link"
+                >Demo <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+
+            <div class="project__content">
+              <img
+                src="assets/img/player.png"
+                alt="ecommerce Website"
+                class="project__img"
+              />
+              <h3 class="project__title">Music Player</h3>
+              <p class="project__description">
+                Developed an interactive music streaming webpage using APlayer JavaScript library, jQuery, HTML, and CSS.The project features an intuitive interface allowing users to easily choose and play songs.
+              </p>
+              <a
+                href="https://github.com/pavand18/music-player.github.io/blob/main/app.js"
+                class="project__link"
+                >Source Code <i class="ri-arrow-right-line"></i
+              ></a>
+              <a
+                href="https://pavand18.github.io/music-player.github.io/"
+                class="project__link"
+                >Demo <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+
+            <!-- pr#2 -->
+            <div class="project__content">
+              <img
+                src="assets/img/8biit.png"
+                alt="portfolio"
+                class="project__img"
+              />
+              <h3 class="project__title">8bit Microcomputer</h3>
+              <p class="project__description">
+                Developed 8-bit microcomputer based on Neumann architecture for arithmetic operations using logisim, showcasing, ALU integration, and custom assembly programming. Demonstrated, problem-solving, and documentation skills.
+              </p>
+              <a
+                href="https://drive.google.com/drive/u/0/folders/1pvqbgtvOh5ZDvD-RKlaPNy1mCAugE9HE"
+                class="project__link"
+                >Source Code <i class="ri-arrow-right-line"></i
+              ></a>
+              <a href="https://drive.google.com/drive/u/0/folders/1pvqbgtvOh5ZDvD-RKlaPNy1mCAugE9HE" class="project__link"
+                >Demo <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+
+            <!-- pr#3 -->
+            <div class="project__content">
+              <img
+                src="assets/img/tacho.jpg"
+                alt="error"
+                class="project__img"
+              />
+              <h3 class="project__title">Rpm Measurement </h3>
+              <p class="project__description">
+                This was a group project.In which we developed a prototype to measure the speed of motor in rpm using IR sensor and Arduino UNO and also implemented a control system to maintain a rpm.
+              </p>
+              <a
+                href="https://drive.google.com/drive/u/0/folders/1PjZ9v04gaWGQhIBDtsWFJWRpXF2Z1iIG"
+                class="project__link"
+                >Source Code <i class="ri-arrow-right-line"></i
+              ></a>
+              <a href="https://drive.google.com/drive/u/0/folders/1PjZ9v04gaWGQhIBDtsWFJWRpXF2Z1iIG" class="project__link"
+                >Demo <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+
+            <div class="project__content">
+              <img
+                src="assets/img/news.png"
+                alt="error"
+                class="project__img"
+              />
+              <h3 class="project__title">News App</h3>
+              <p class="project__description">
+                Created real-time chat app with Node.js, Express.js, and
+                Socket.io. Features secure user authentication and instant
+                messaging. Demonstrates proficiency in modern web development.
+              </p>
+              <a
+                href="https://github.com/pavand18/News_App"
+                class="project__link"
+                >Source Code <i class="ri-arrow-right-line"></i
+              ></a>
+              <a href="https://github.com/pavand18/News_App" class="project__link"
+                >Demo <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!--Contact -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="d-grid contact__wrapper">
+            <div class="contact__content">
+              <h2 class="contact__title">
+                Interested in working together? Let's talk
+              </h2>
+            </div>
+            <div class="contact__btn">
+              <a
+                href="https://www.linkedin.com/in/aman-maurya-47b5131b5/"
+                target="_blank"
+                class="btn btn--secondary"
+                >Get in touch</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+<!-- <hr> -->
+
+    <!-- footer -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="d-grid footer__wrapper">
+          <div class="footer__content">
+            <h4 class="footer__title">Follow Me</h4>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a
+                  href="https://www.linkedin.com/in/pavan-kumar-dakore-23a976230/"
+                  class="footer__social-link"
+                >
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a
+                  href="https://www.instagram.com/pavand_18/"
+                  class="footer__social-link"
+                >
+                  <i class="ri-instagram-fill"></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a
+                  href="https://twitter.com/pavanthe7"
+                  class="footer__social-link"
+                >
+                  <i class="ri-twitter-fill"></i>
+                </a>
+              </li>
+
+              <li class="footer__social-item">
+                <a
+                  href="https://github.com/pavand18"
+                  class="footer__social-link"
+                >
+                  <i class="ri-github-fill"></i>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="footer__content">
+            <h4 class="footer__title">Email Me</h4>
+            <a href="#" class="footer__contact">pavandakoregmail.com</a>
+          </div>
+        </div>
+        
+
+        <div class="livecounter" style="float: right">
+          <a href="https://www.hitwebcounter.com" target="_blank">
+            <img
+              src="https://hitwebcounter.com/counter/counter.php?page=8023706&style=0001&nbdigits=5&type=page&initCount=0"
+              title="Free Counter"
+              alt="web counter"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
